@@ -41,3 +41,89 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* -------------------------------------------- */
+html {
+    color-scheme: dark light;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100svh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+    background-color: #f6bd60;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 2rem 0.1rem black;
+}
+
+.ul-item {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+h1 {
+    font-size: 3.5rem;
+    font-weight: 100;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-size: 2rem;
+    color: black;
+}
+
+.button {
+    width: 7.5rem;
+    background-color: #f28482;
+    color: black;
+    border-radius: 0.3rem;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    font-size: 1.25rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border: 2px solid #ee676a;
+    transition: all 300ms;
+}
+
+.button:hover, .btn-gototop:hover {
+    background-color: #f0b7af;
+    border-color: #f28482;
+}
+
+.hero-image-section {
+    padding: 0.5rem  0.5rem;
+    background-color: rgba(0, 0, 0, 60%);
+    border-radius: 0.3rem;
+}
+
+.hero-image-section img {
+    border-radius: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+
+.btn-gototop {
+    background-color: #f08080;
+    color: black;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    font-size: 1.25rem;
+    text-align: center;
+    text-decoration: none;
+}
